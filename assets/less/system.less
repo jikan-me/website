@@ -1,0 +1,140 @@
+@color-background: #fff;
+@color-primary: #1B7AC2;
+@color-primary-dark: #2E51A2;
+@color-primary-shade: #EFF4FF;
+@color-black: #343434;
+@color-link-primary: @color-primary-dark;
+@color-link-secondary: #fff;
+
+body {
+    background: @color-background;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: @color-black;
+    margin: 0;
+}
+h1 {font-size: 72px;}
+h2 {font-size: 48px;}
+h3 {font-size: 36px;}
+h4 {font-size: 30px;}
+h5 {font-size: 20px;}
+h6 {font-size: 14px;}
+
+small {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: @color-link-primary;
+}
+
+p {
+    line-height: 1.75;
+    color: @color-black;
+}
+
+em {
+    font-style: italic;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+.typography {
+    &--uppercase {
+        text-transform: uppercase;
+    }
+}
+
+.buttons {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+
+    &--margin-small {
+        margin-top: 25px;
+    }
+
+    &--margin-none {
+        margin-top: 0;
+    }
+
+    .button {
+        margin-right: 25px;
+    }
+}
+
+.button {
+    box-sizing: border-box;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 7px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--size {
+        &-large {
+            height: 60px;
+            width: 180px;
+        }
+
+        &-medium {
+            height: 50px;
+            width: 180px;
+        }
+
+        &-width-override {
+            width: auto;
+            padding: 0 25px;
+        }
+    }
+
+    &--fill {
+        &-white {
+            background: #fff;
+            color: @color-primary-dark;
+        }
+
+        &-blue {
+            background: @color-primary-dark;
+            color: #fff;
+        }
+    }
+
+    &--outline {
+        background: transparent;
+
+        &-white {
+            border: 2px solid #fff;
+            color: #fff;
+        }
+
+        &-black {
+            border: 2px solid @color-black;
+            color: @color-black;
+        }
+    }
+
+    &__icon {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+
+.flex {
+    display: flex;
+
+    &--centralize {
+        justify-content: center;
+        align-items: center;
+    }
+}
