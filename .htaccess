@@ -26,5 +26,5 @@ RewriteRule showcase showcase.html
 </ifModule>
 
 <IfModule mod_deflate.c>
-AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css         application/json applicatio$
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css         application/json application
 </IfModule>
