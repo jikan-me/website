@@ -9,9 +9,9 @@ RewriteRule index index.html
 RewriteRule changelog https://github.com/jikan-me/jikan/blob/master/changelog.md
 RewriteRule faq faqs.html
 RewriteRule faqs faqs.html
-RewriteRule docs documentation.html
-RewriteRule doc documentation.html
-RewriteRule documentation documentation.html
+RewriteRule docs https://docs.jikan.moe
+RewriteRule doc https://docs.jikan.moe
+RewriteRule documentation https://docs.jikan.moe
 RewriteRule showcase showcase.html
 
 <ifModule mod_gzip.c>
