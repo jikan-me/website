@@ -1,0 +1,167 @@
+@breakpointA:   ~"only screen and (max-width: 1200px)";
+@breakpointB:   ~"only screen and (max-width: 900px)";
+@breakpointC:   ~"only screen and (max-width: 500px)";
+
+@media @breakpointA { // 1200px
+    .buttons {
+        flex-wrap:  wrap;
+
+        .button, a, iframe {
+            margin-top: 10px;
+        }
+    }
+
+    .open-source, .wrappers .info {
+        width: 80%;
+    }
+
+    header {
+        height: unset;
+        min-height: 100vh;
+
+        .hero {
+            grid-template-columns:1fr;
+            grid-template-rows: auto auto;
+
+
+            .left {
+                border-right: 0;
+            }
+            .right {
+                padding: 100px 0;
+            }
+        }
+    }
+}
+
+@media @breakpointB { // 900px
+    @pad: 50px;
+    header {
+        padding: 0 @pad;
+        display: flex;
+        flex-direction: column;
+
+        .page {
+            padding-bottom: 50px;
+        }
+
+        .hero.page {
+            display: block;
+
+            .left {
+                width: 100%;
+            }
+        }
+
+        .menu {
+            &__items {
+                a {
+                    display: none;
+
+                    &.menu__logo {
+                        display: block;
+                    }
+                }
+            }
+
+            &__icons {
+                a {
+                    display: none;
+                }
+
+                button {
+                    display: block;
+                }
+            }
+        }
+    }
+    .open-source {
+        width: 100%;
+        padding: 0 @pad;
+    }
+
+    .api {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+
+        .left, .right {
+            min-height: 500px;
+            padding: @pad @pad;
+        }
+    }
+
+    .wrappers {
+        padding: 50px @pad;
+
+        .contribution {
+            width: 70%;
+        }
+    }
+
+    section.showcase {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+
+        .left {
+            padding: 50px @pad;
+        }
+
+        .right {
+            min-height: 500px;
+            background-attachment: fixed;
+        }
+    }
+
+    .discord {
+        padding: 200px @pad;
+    }
+
+    .sponsors {
+        padding: 100px @pad;
+    }
+    
+    .showcase-page, .faqs {
+        padding: 100px @pad;
+    }
+
+    .api {
+        display: flex;
+        flex-direction: column;
+
+        .left, .right {
+            display: flex;
+            flex-direction: column;
+            min-height: 800px;
+            padding: @pad @pad;
+
+            .contributors {
+                margin-top: 50px;
+                position: relative;
+            }
+        }
+    }
+
+    .wrappers {
+        .contribution {
+            width: 100%;
+        }
+
+        .info {
+            width: 100%;
+
+            p {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+@media @breakpointB { // 500px
+    h1 {font-size: 50px;}
+    h2 {font-size: 48px;}
+    h3 {font-size: 36px;}
+    h4 {font-size: 30px;}
+    h5 {font-size: 20px;}
+    h6 {font-size: 14px;}
+}
