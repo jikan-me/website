@@ -1,8 +1,9 @@
 function search() {
     var query = document.getElementById('search_query').value;
 
-    if (query.length <= 3) {
-        alert('Search Error: Needs 3 or more characters');
+    if (query.length < 3) {
+        alert('Error: Requires atleast 3 or more characters');
+        return;
     }
 
     var requestUrl = `https://api.jikan.moe/v3/search/anime?q=${query}&limit=5`;
