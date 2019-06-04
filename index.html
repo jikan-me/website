@@ -50,8 +50,9 @@
     <!-- Style -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <!-- <link rel="stylesheet/less" type="text/css" href="assets/less/bootstrap.less" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script> -->
+
+    <!-- <link rel="stylesheet/less" type="text/css" href="assets/less/bootstrap.less" /> -->
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script> -->
 </head>
 <body>
     <!-- Google Analytics -->
@@ -75,6 +76,7 @@
             </div>
         
             <div class="menu_mobile__icons">
+                <a target="_blank" href="https://patreon.com/jikan"><i class="fab fa-patreon"></i></a>
                 <a target="_blank" href="https://discord.gg/4tvCr36"><i class="fab fa-discord"></i></a>
                 <a target="_blank" href="https://github.com/jikan-me/jikan"><i class="fab fa-github"></i></a>
             </div>
@@ -89,6 +91,7 @@
             </div>
 
             <div class="menu__icons">
+                <a target="_blank" href="https://patreon.com/jikan"><i class="fab fa-patreon"></i></a>
                 <a target="_blank" href="https://discord.gg/4tvCr36"><i class="fab fa-discord"></i></a>
                 <a target="_blank" href="https://github.com/jikan-me/jikan"><i class="fab fa-github"></i></a>
                 <button id="nav_trigger">Menu</button>
@@ -138,6 +141,16 @@
         </div>
     </header>
 
+    <section class="patreon">
+        <div>
+            <a href="https://www.patreon.com/bePatron?u=11383567" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+        </div>
+
+        <div>
+            Please consider supporting us on Patreon to help keep the service running! <a href="https://www.reddit.com/r/jikan/comments/bvgmyw/jikanmoe_api_please_support_us_on_patreon_to_help/" target="_blank">Read More</a>.
+        </div>
+    </section>
+
     <section id="open-source" class="flex flex--centralize">
         <div class="open-source">
             <h2>Free & Open Source</h2>
@@ -155,7 +168,7 @@
         <div class="left">
             <h2>REST API</h2>
             <p>With nearly limitless quota on requests, you have the freedom to create without the need of writing your own parsers. Save yourself some Jikan.</p>
-            <p><b>Jikan caters to OVER 5 million requests monthly.</b> And this includes some of the most popular MyAnimeList apps!</p>
+            <p><b>Jikan caters to over 5 million requests weekly.</b> And this includes some of the most popular Anime apps!</p>
 
             <div class="buttons">
                 <a target="_blank" href="https://jikan.docs.apiary.io/" class="button button--size-medium buttton--size-width-override button--outline-white button--has-icon">
@@ -290,9 +303,10 @@
         </div>
 
         <div class="right">
-            <div class="attribution">
-                <b>TaiYaKi</b> by Michael
-            </div>
+            <!-- <div class="attribution">
+                <b></b> by 
+            </div> -->
+            <img src="assets/images/developer.svg" alt="Showcase">
         </div>
     </section>
 
@@ -308,10 +322,30 @@
         </div>
     </section>
 
-    <section class="sponsors">
-        <h2>Sponsors</h2>
-        <p>Jikan's REST API runs on multiple servers to help distribute high loads of traffic and requests to MyAnimeList. This is thanks to <b>Matsujo Hibiki</b>, who has been been keeping the lights on for the Jikan REST API since 2018.</p>
-        <p>Furthermore, a shoutout to <b>WolfDan</b> who was sponsoring us before that!</p>
+
+    <section id="backers" class="backers flex flex--centralize">
+        <div class="backers__about">
+            <h2>Backers & Sponsors</h2>
+            <p>Jikan's REST API service runs on multiple servers to help manage high loads of traffic. This is thanks to our backers and sponsors!</p>
+    
+            <div class="buttons buttons--margin-small">
+                <a target="_blank" href="https://patreon.com/jikan" class="button button--size-large button--fill-blue button--size-width-override">
+                        Become a Patreon
+                </a>
+            </div>
+        </div>
+
+        <div class="backers__people">
+            <h3>Backers</h3>
+            <p>
+                <a target="_blank" href="https://github.com/purplepinapples/">PurplePinapples</a><span>●</span><a target="_blank" href="https://github.com/barkdoll/">Jesse (Barkdoll)</a>
+            </p>
+
+            <h3>Sponsors</h3>
+            <p>
+                <a target="_blank" href="https://github.com/assintates">Matsujo Hibiki (Assintates)</a><span>●</span><a target="_blank" href="https://github.com/WolfDan">WolfDan</a> <small>(previous sponsor)</small>
+            </p>
+        </div>
     </section>
 
     <footer>
