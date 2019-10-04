@@ -51,8 +51,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
-    <!-- <link rel="stylesheet/less" type="text/css" href="assets/less/bootstrap.less" /> -->
-    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script> -->
+    <!-- <link rel="stylesheet/less" type="text/css" href="assets/less/bootstrap.less" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script> -->
 </head>
 <body>
     <!-- Google Analytics -->
@@ -147,7 +147,7 @@
         </div>
 
         <div>
-            Please consider supporting us on Patreon to help keep the service running! <a href="https://www.reddit.com/r/jikan/comments/bvgmyw/jikanmoe_api_please_support_us_on_patreon_to_help/" target="_blank">Read More</a>.
+            Please consider supporting us on Patreon to help run and expand the service!
         </div>
     </section>
 
@@ -164,11 +164,23 @@
         </div>
     </section>
 
+    <section class="sponsor">
+        <div class="left">
+            <span>SPONSORED</span>
+            <img src="https://github.com/tritonjs/ui/raw/master/html/css/img/tb.png" alt="Triton">
+        </div>
+
+        <div class="right">
+            <p>TRITON is a media pipeline that aims to go one step further than services like Jellyfin and Plex provide. Media is fetched from a magnitude of supported protocols (HTTP, S3-compatible, Usenet, etc), converted into multiple different quality levels, and then uploaded to a S3-compatible storage provider in an organized fashion. This enables cheap storage and ensures that buffering is never a problem. On top of all of this, a frontend allows users to watch your media on the go.</p>
+            <p><a href="https://github.com/tritonmedia/triton" target="_blank"><b>Go to Triton GitHub</b></a></p>
+        </div>
+    </section>
+
     <section class="api">
         <div class="left">
             <h2>REST API</h2>
             <p>With nearly limitless quota on requests, you have the freedom to create without the need of writing your own parsers. Save yourself some Jikan.</p>
-            <p><b>Jikan caters to over 5 million requests weekly.</b> And this includes some of the most popular Anime apps!</p>
+            <p><b>Jikan caters to over 5 million requests weekly.</b> And this includes the use of the most popular Anime apps around!</p>
 
             <div class="buttons">
                 <a target="_blank" href="https://jikan.docs.apiary.io/" class="button button--size-medium buttton--size-width-override button--outline-white button--has-icon">
@@ -279,11 +291,17 @@
                     <small>by <span>Javier Blanco</span></small>
                 </div>
             </a>
+            <a href="https://github.com/darenliang/jikan-go" class="wrapper" style="background: #00ADD8;" target="_blank">
+                <div>
+                    <h4><strong>Jikan-go</strong></h4>
+                    <small>by <span>Daren Liang</span></small>
+                </div>
+            </a>
         </div>
 
         <div class="contribution">
             <p><small>
-                Help contribute by writing or maintaining a wrapper in your favorite programming language!
+                Help contribute by writing or maintaining a wrapper in your favorite programming language
                 <br><br>
                 <b>Made a wrapper? <a href="https://github.com/jikan-me/website/edit/master/index.html">Edit this page!</a></b>
             </small></p>
@@ -293,9 +311,9 @@
     <section class="showcase">
         <div class="left">
             <h2>Showcase</h2>
-            <p><b>How does Jikan power your apps/projects?</b> I'd love to know!</p>                
+            <p><b>How does Jikan power your apps/projects?</b></p>                
             <p>
-                If you use Jikan in your projects or apps, <a href="https://twitter.com/irfandahir" target="_blank">tweet @irfanDahir</a> or send me a DM on Discord (Nekomata#0428). I'd love to see what you've made! 💯
+                If you use Jikan in your apps/projects, tweet <a href="https://twitter.com/irfandahir" target="_blank">@irfanDahir</a> or drop us a message on <a href="#discord">Discord</a> and we'd love to add it to our <a href="/showcase">showcase</a>!
             </p>
 
             <div class="buttons">
@@ -309,14 +327,14 @@
         </div>
 
         <div class="right">
-            <!-- <div class="attribution">
-                <b></b> by 
-            </div> -->
-            <img src="assets/images/developer.svg" alt="Showcase">
+            <div class="attribution">
+                <b><a href="https://play.google.com/store/apps/details?id=com.drutol.malclient">MalClient</a></b> by Drutol 
+            </div>
+            <img src="https://i.imgur.com/jbF6Y1p.jpg" alt="Showcase">
         </div>
     </section>
 
-    <section class="discord">
+    <section class="discord" id="discord">
         <h2>Come say hello</h2>
         <div class="buttons">
             <a target="_blank" href="https://discord.gg/4tvCr36" class="button button--size-large button--fill-white button--has-icon">
@@ -349,7 +367,7 @@
             
             <h3>Backers</h3>
             <p>
-                <a target="_blank" href="https://github.com/purplepinapples/">PurplePinapples</a> <span>●</span>
+                <a target="_blank" href="https://github.com/seanbreckenridge">Sean Breckenridge (PurplePinapples)</a> <span>●</span>
                 <a target="_blank" href="https://github.com/barkdoll/">Jesse (Barkdoll)</a> <span>●</span>
                 <a target="_blank" href="https://github.com/Drutol">Piotr Szymczak (Drutol)</a> <span>●</span>
                 <a target="_blank" href="https://twitter.com/jamesthebard">Jason Weatherly (jamesthebard)</a> <span>●</span>
@@ -365,7 +383,7 @@
 
     <footer>
         <div class="left">
-            <small>2017-2019 <b>Jikan.moe</b>. Developed by <a target="_blank" href="https://twitter.com/IrfanDahir">Irfan Dahir</a></small>
+            <small>2017-2019 <b>Jikan.moe</b>
         </div>
 
         <div class="right">

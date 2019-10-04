@@ -474,13 +474,13 @@ section.showcase {
     background: @color-primary-shade;
 
     .left, .right {
-        padding: 0 100px;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
     .left {
         background: @color-primary-shade;
+        padding: 0 100px;
 
         .buttons {
             .button {
@@ -697,5 +697,32 @@ footer {
     h3 {
         margin-top: 50px;
         line-height: 2;
+    }
+}
+
+.sponsor {
+    background: #EFF4FF;
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+
+    img {
+        width: 300px;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        span{
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: fadeout(black, 20%);
+        }
+    }
+
+    .right{
+
+        padding-left: 50px;
     }
 }
