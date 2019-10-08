@@ -53,26 +53,26 @@
             }
         }
 
+        .menu-icon {
+            display: inline-block;
+        }
+
         .menu {
-            &__items {
-                a {
-                    display: none;
-
-                    &.menu__logo {
-                        display: block;
-                    }
-                }
-            }
-
-            &__icons {
+            li:not(:nth-of-type(1)), div {
                 a {
                     display: none;
                 }
-
-                button {
-                    display: block;
-                }
             }
+
+            // &__icons {
+            //     a {
+            //         display: none;
+            //     }
+
+            //     button {
+            //         display: block;
+            //     }
+            // }
         }
     }
     .open-source {
