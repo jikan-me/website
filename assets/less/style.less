@@ -181,11 +181,18 @@ header {
         cursor: pointer;
 
         span {
-                color: @color-link-secondary;
-                font-size: 25px;
-                position: absolute;
-                top: -7px;
-                left: -90px;
+            color: @color-link-secondary;
+            font-size: 25px;
+            position: absolute;
+            top: -7px;
+            left: -90px;
+            -webkit-touch-callout: none; /* iOS Safari */
+            -webkit-user-select: none; /* Safari */
+            -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Opera and Firefox */
         }
 
         &::before {
@@ -224,12 +231,12 @@ header {
         }
     }
 
-    &__menu-icon--close-x {
+    .menu-icon--close-x {
         &::before {
             transform: rotate(45deg) scaleX(1.25);
         }
 
-        .nav-bar__menu-icon__middle {
+        .menu-icon__middle {
             opacity: 0;
             transform: scaleX(0);
         }
