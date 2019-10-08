@@ -58,9 +58,33 @@
         }
 
         .menu {
+            &__mobile-menu {
+                display: block;
+                position: absolute;
+                right: -50px;
+                top: 150px;
+                text-align: center;
+                opacity: 0;
+                z-index: -1;
+
+                li {
+                    margin-bottom: 30px;
+
+                    a {
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            &__pull-right {
+                position: absolute;
+                left: 60px;
+            }
+
             li:not(:nth-of-type(1)), div {
                 a {
-                    display: none;
+                    // display: none;
+
                 }
             }
 
