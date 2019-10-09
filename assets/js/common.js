@@ -1,7 +1,3 @@
-// document.getElementById('nav_trigger').onclick = () => {
-//     document.getElementById('menu_mobile').classList.toggle('show');
-// };
-
 function triggerMenu( links, state, hamburger){
     if (state) {
         links.style.opacity = 1;
