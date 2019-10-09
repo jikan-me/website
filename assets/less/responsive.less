@@ -61,7 +61,7 @@
             &__mobile-menu {
                 display: block;
                 position: absolute;
-                right: -50px;
+                right: -60px;
                 top: 150px;
                 text-align: center;
                 opacity: 0;
@@ -165,6 +165,34 @@
 
 
 @media @breakpointC { // 600px
+    header {
+
+        .menu {
+            &__mobile-menu {
+                padding-top: 35px;
+
+                li {
+                    margin-bottom: 50px;
+
+                    a {
+                        background-color: #fff;
+                        color: @color-primary;
+                        padding: 10px;
+                        font-size: 20px;
+                        box-shadow: 4px 5px 10px #000;
+                    }
+                }
+            }
+
+            &__pull-right {
+                left: auto;
+                right: -15px;
+                bottom: 40px;
+
+            }
+        }
+    }
+    
     h1 {font-size: 50px;}
     h2 {font-size: 48px;}
     h3 {font-size: 36px;}
