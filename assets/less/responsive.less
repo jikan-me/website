@@ -1,6 +1,6 @@
 @breakpointA:   ~"only screen and (max-width: 1200px)";
 @breakpointB:   ~"only screen and (max-width: 900px)";
-@breakpointC:   ~"only screen and (max-width: 500px)";
+@breakpointC:   ~"only screen and (max-width: 600px)";
 
 @media @breakpointA { // 1200px
     .buttons {
@@ -53,25 +53,32 @@
             }
         }
 
-        .menu {
-            &__items {
-                a {
-                    display: none;
+        .menu-icon {
+            display: inline-block;
+        }
 
-                    &.menu__logo {
-                        display: block;
+        .menu {
+            &__mobile-menu {
+                display: block;
+                position: absolute;
+                right: -60px;
+                top: 150px;
+                text-align: center;
+                opacity: 0;
+                z-index: -1;
+
+                li {
+                    margin-bottom: 30px;
+
+                    a {
+                        font-size: 20px;
                     }
                 }
             }
 
-            &__icons {
-                a {
-                    display: none;
-                }
-
-                button {
-                    display: block;
-                }
+            &__pull-right {
+                position: absolute;
+                left: 60px;
             }
         }
     }
@@ -157,7 +164,36 @@
 }
 
 
-@media @breakpointB { // 500px
+@media @breakpointC { // 600px
+    header {
+
+        .menu {
+            &__mobile-menu {
+                padding-top: 35px;
+
+                li {
+                    margin-bottom: 50px;
+
+                    a {
+                        background-color: #fff;
+                        color: @color-primary;
+                        padding: 10px;
+                        font-size: 20px;
+                        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+                        border-radius: 5px;
+                    }
+                }
+            }
+
+            &__pull-right {
+                left: auto;
+                right: -15px;
+                bottom: 40px;
+
+            }
+        }
+    }
+    
     h1 {font-size: 50px;}
     h2 {font-size: 48px;}
     h3 {font-size: 36px;}
