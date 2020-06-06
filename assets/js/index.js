@@ -6,7 +6,7 @@ function search() {
         return;
     }
 
-    var requestUrl = `https://api.jikan.moe/v3/search/anime?q=${query}&limit=16`;
+    var requestUrl = `https://api.jikan.moe/v3/search/anime?q=${query}`;
     document.getElementById('search_query_url').innerHTML = 'working...';
     document.getElementById('search_query_url').href = 'javascript:void(null)';
     
