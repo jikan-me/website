@@ -1,6 +1,7 @@
 @breakpointA:   ~"only screen and (max-width: 1200px)";
 @breakpointB:   ~"only screen and (max-width: 900px)";
 @breakpointC:   ~"only screen and (max-width: 600px)";
+@breakpointD:   ~"only screen and (max-width: 400px)";
 
 @media @breakpointA { // 1200px
     .buttons {
@@ -36,6 +37,61 @@
 
 @media @breakpointB { // 900px
     @pad: 50px;
+
+    header,
+    .open-source
+    {
+        padding: 0 @pad;
+    }
+
+    footer {
+        padding: 30px @pad;
+    }
+
+    .api {
+        display: flex;
+        flex-direction: column;
+
+        .left, .right {
+            display: flex;
+            flex-direction: column;
+            min-height: 800px;
+            padding: @pad @pad;
+
+            .contributors {
+                margin-top: 50px;
+                position: relative;
+            }
+        }
+    }
+
+    .wrappers {
+        .contribution {
+            width: 100%;
+        }
+
+        .info {
+            width: 100%;
+
+            p {
+                width: 100%;
+            }
+        }
+    }
+
+    .sponsor {
+        display: flex;
+        flex-direction: column;
+
+        .right {
+            padding-left: 0;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
     header {
         padding: 0 @pad;
         display: flex;
@@ -161,10 +217,65 @@
             }
         }
     }
+
+    .sponsor {
+        display: flex;
+        flex-direction: column;
+
+        .right {
+            padding-left: 0;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+    section.sponsor
+    {
+        padding: 50px @pad;
+    }
 }
 
 
 @media @breakpointC { // 600px
+    // Update Paddings
+    @pad: 30px;
+    header,
+    .open-source
+    {
+        padding: 0 @pad;
+    }
+
+    .api.left,
+    .api.right
+    {
+        padding: @pad @pad;
+    }
+
+    .wrappers,
+    section.showcase.left,
+    section.sponsor
+    {
+        padding: 50px @pad;
+    }
+
+    .sponsors,
+    .showcase-page,
+    .faqs,
+    section.backers
+    {
+        padding: 100px @pad;
+    }
+
+    .discord
+    {
+        padding: 200px @pad;
+    }
+
+    footer {
+        padding: 30px @pad;
+    }
+
     header {
 
         .menu {
@@ -200,4 +311,69 @@
     h4 {font-size: 30px;}
     h5 {font-size: 20px;}
     h6 {font-size: 14px;}
+}
+
+@media @breakpointD { // 400px
+    // Update Paddings
+    @pad: 20px;
+    header,
+    .open-source
+    {
+        padding: 0 @pad;
+    }
+
+    .api.left,
+    .api.right
+    {
+        padding: @pad @pad;
+    }
+
+    .wrappers,
+    section.showcase.left
+    {
+        padding: 50px @pad;
+    }
+
+    .sponsors,
+    .showcase-page,
+    .faqs,
+    section.backers
+    {
+        padding: 100px @pad;
+    }
+
+    .discord
+    {
+        padding: 200px @pad;
+    }
+
+    footer {
+        padding: 30px @pad;
+    }
+
+    .backers {
+        &__about {
+            width: 100%;
+        
+            p {
+                width: 100%;
+            }
+        }
+    
+        &__people {
+            width: 100%;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .button {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
 }
