@@ -1,0 +1,22 @@
+{
+  "name": "jikan",
+  "version": "1.0.0",
+  "description": "Website for Jikan.moe",
+  "scripts": {
+    "less:compile": "lessc assets/less/bootstrap.less assets/css/style.css --clean-css=\"--s1 --advanced --compatibility=ie8\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jikan-me/website.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jikan-me/website/issues"
+  },
+  "homepage": "https://github.com/jikan-me/website#readme",
+  "dependencies": {
+    "less": "3.12.2",
+    "less-plugin-clean-css": "1.5.1"
+  }
+}
