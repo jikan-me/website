@@ -66,3 +66,17 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener("resize", lazyLoad);
   window.addEventListener("orientationchange", lazyLoad);
 });
+
+
+var scrollUp = document.getElementById('scrollyY');
+document.onscroll = function(){
+    if(window.scrollY>200){
+        scrollUp.style.opacity = "1";
+    }else{
+        scrollUp.style.opacity = "0";
+    }
+    console.log(window.scrollY);
+};
+scrollUp.onclick=function(){
+        window.scrollTo({top: 0});
+};
