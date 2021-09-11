@@ -773,3 +773,34 @@ footer {
     padding-left: 50px;
   }
 }
+
+
+html {
+  -webkit-scroll-behavior: smooth;
+  -ms-scroll-behavior: smooth;
+  -mos-scroll-behavior: smooth;
+  -o-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+#scrollyY {
+  opacity: 0;
+  background-color: #1B7AC2;
+  bottom: 50px;
+  position: fixed;
+  right: 20px;
+  z-index: 99;
+  -webkit-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  i {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 10px;
+  }
+  &:hover {
+    bottom: 53px;
+  }
+}
