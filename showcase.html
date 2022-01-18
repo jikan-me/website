@@ -8,7 +8,7 @@
 
     <!-- SEO/OGP -->
     <meta name="author" content="@irfanDahir">
-    <meta name="keywords" content="jikan, rest, php, api, myanimelist, free, open, source, 2017, 2018, 2019, anime, manga, people, characters, novels, manhua, manhwa, wrapper, ruby, python, restful, dart, node, javascript, js, nodejs, java, net">
+    <meta name="keywords" content="jikan, rest, php, api, myanimelist, free, open, source, 2017, 2018, 2019, 2020, 2021, 2022, anime, manga, people, characters, novels, manhua, manhwa, wrapper, ruby, python, restful, dart, node, javascript, js, nodejs, java, net">
     <meta name="description" content="Apps developed using Jikan.moe">
     <meta name="image" content="https://i.imgur.com/ctoJ3Jp.png">
     <meta itemprop="name" content="Jikan - Showcase">
@@ -51,8 +51,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
-    <!-- <link rel="stylesheet/less" type="text/css" href="assets/less/bootstrap.less" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script> -->
+    <!--    <link rel="stylesheet/less" type="text/css" href="assets/less/bootstrap.less" />-->
+    <!--    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>-->
 </head>
 <body>
     <!-- Google Analytics -->
@@ -65,7 +65,12 @@
         ga('send', 'pageview');
     </script>
 
-
+    <div class="notif-banner">
+        <p>
+            🎉 Jikan REST API v4.0 has been released!
+            <a href="https://www.patreon.com/posts/60604773">Read more</a>
+            <a href="https://docs.api.jikan.moe/">Docs</a>
+    </div>
     <header class="page">
         <nav>
             <div class="menu-icon">
@@ -74,13 +79,15 @@
             </div>
             <ul class="menu">
                 <li>
-                    <a href="https://jikan.moe"><img class="menu__logo" src="assets/images/logo/jikan.logo.png" /></a>
+                    <a href="https://jikan.moe" ><img class="menu__logo" src="assets/images/logo/jikan.logo.png" /></a>
                 </li>
                 <div class="menu__mobile-menu">
                     <li>
-                        <a target="_blank" href="https://jikan.docs.apiary.io">Documentation</a>
+                        <a target="_blank" href="https://jikan.docs.apiary.io">v3 Docs</a>
                     </li>
-                    <!-- <li><a target="_blank" href="https://status.jikan.moe">Status</a></li> -->
+                    <li>
+                        <a class="highlighted" target="_blank" href="https://docs.api.jikan.moe/">✨ v4 Docs</a>
+                    </li>
                     <li>
                         <a href="showcase">Showcase</a>
                     </li>

@@ -1,9 +1,28 @@
+.notif-banner {
+  width: 100%;
+  min-height: 50px;
+  color: rgba(0,0,0,.9);
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+
+  a {
+    margin-left: 20px;
+  }
+}
+
 header {
   height: 100vh;
   width: 100%;
   background: linear-gradient(to right, @color-primary-dark, @color-primary);
   box-sizing: border-box;
   padding: 0 100px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 
   display: grid;
   grid-template-rows: 200px auto;
@@ -48,6 +67,11 @@ header {
       color: @color-link-secondary;
       font-size: 18px;
       margin-right: 60px;
+
+      &.highlighted {
+        opacity: 1;
+        font-weight: bold;
+      }
     }
   }
 
@@ -784,7 +808,8 @@ html {
 }
 #scrollyY {
   opacity: 0;
-  background-color: #1B7AC2;
+  background-color: @color-primary;
+  border-radius: 5px;
   bottom: 50px;
   position: fixed;
   right: 20px;

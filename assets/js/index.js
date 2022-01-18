@@ -1,18 +1,10 @@
 function search() {
     var query = document.getElementById('search_query').value;
 
-    if (query.length < 3) {
-        alert('Error: Requires atleast 3 or more characters');
-        return;
-    }
-
-    var requestUrl = `https://api.jikan.moe/v3/search/anime?q=${query}`;
+    var requestUrl = `https://api.jikan.moe/v4/anime?q=${query}&sfw`;
     document.getElementById('search_query_url').innerHTML = 'fetching...';
-    document.getElementById('request_cached').innerHTML = '-';
-    document.getElementById('request_time_taken').innerHTML = '-';
     document.getElementById('search_query_url').href = 'javascript:void(null)';
-    document.getElementById('request_cached').style.color = 'rgba(255,255,255,.6)';
-    
+
     let startTime = new Date().getTime();
 
     fetch(requestUrl)
@@ -22,14 +14,7 @@ function search() {
 
         document.getElementById('search_query_url').innerHTML = requestUrl;
         document.getElementById('search_query_url').href = requestUrl;
-        document.getElementById('request_cached').innerHTML = data.request_cached;
-        document.getElementById('request_cached').style.color = '#FF0000';
-        document.getElementById('request_time_taken').innerHTML = `${timeTaken}ms`;
 
-
-        if (data.request_cached) {
-            document.getElementById('request_cached').style.color = '#00FF00';
-        }
 
         var node = document.getElementById('search_results');
         while (node.firstChild) {node.removeChild(node.firstChild);}
@@ -38,12 +23,7 @@ function search() {
         let i = 1;
         
         try {
-            data.results.forEach(item => {
-                // hide NSFW
-                if (item.rated === "Rx") {
-                    return;
-                }
-
+            data.data.forEach(item => {
                 // filter limit client side
                 if (i > maxResults) {
                     throw BreakException;
@@ -55,7 +35,7 @@ function search() {
                     `
                     <a href="${item.url}" class="card">
                         <div class="card__image">
-                            <img loading="lazy" src="${item.image_url}" alt="${item.title}" />
+                            <img loading="lazy" src="${item.images.jpg.large_image_url}" alt="${item.title}" />
                         </div>
                         <div class="card__name">
                             <span>${item.title}</span> 

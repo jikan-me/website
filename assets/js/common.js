@@ -75,7 +75,6 @@ document.onscroll = function(){
     }else{
         scrollUp.style.opacity = "0";
     }
-    console.log(window.scrollY);
 };
 scrollUp.onclick=function(){
         window.scrollTo({top: 0});

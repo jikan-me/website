@@ -8,7 +8,7 @@
 
     <!-- SEO/OGP -->
     <meta name="author" content="@irfanDahir">
-    <meta name="keywords" content="jikan, rest, php, api, myanimelist, free, open, source, 2017, 2018, 2019, anime, manga, people, characters, novels, manhua, manhwa, wrapper, ruby, python, restful, dart, node, javascript, js, nodejs, java, net">
+    <meta name="keywords" content="jikan, rest, php, api, myanimelist, free, open, source, 2017, 2018, 2019, 2020, 2021, 2022, anime, manga, people, characters, novels, manhua, manhwa, wrapper, ruby, python, restful, dart, node, javascript, js, nodejs, java, net">
     <meta name="description" content="Jikan is an unofficial MyAnimeList REST based API">
     <meta name="image" content="https://i.imgur.com/ctoJ3Jp.png">
     <meta itemprop="name" content="Jikan - Unofficial MyAnimeList API">
@@ -51,8 +51,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
-    <!-- <link rel="stylesheet/less" type="text/css" href="assets/less/bootstrap.less" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script> -->
+<!--    <link rel="stylesheet/less" type="text/css" href="assets/less/bootstrap.less" />-->
+<!--    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>-->
 </head>
 <body>
     <!-- Google Analytics -->
@@ -65,6 +65,12 @@
         ga('send', 'pageview');
     </script>
 
+    <div class="notif-banner">
+        <p>
+            🎉 Jikan REST API v4.0 has been released!
+            <a href="https://www.patreon.com/posts/60604773">Read more</a>
+            <a href="https://docs.api.jikan.moe/">Docs</a>
+    </div>
 
     <header>
         <nav>
@@ -78,9 +84,11 @@
                 </li>
                     <div class="menu__mobile-menu">
                         <li>
-                            <a target="_blank" href="https://jikan.docs.apiary.io">Documentation</a>
+                            <a target="_blank" href="https://jikan.docs.apiary.io">v3 Docs</a>
                         </li>
-                        <!-- <li><a target="_blank" href="https://status.jikan.moe">Status</a></li> -->
+                        <li>
+                            <a class="highlighted" target="_blank" href="https://docs.api.jikan.moe/">✨ v4 Docs</a>
+                        </li>
                         <li>
                             <a href="showcase">Showcase</a>
                         </li>
@@ -115,9 +123,12 @@
                     <a href="#open-source" class="button button--size-large button--outline-white">
                         Learn More
                     </a>
-                    <a target="_blank" href="https://jikan.docs.apiary.io/" class="button button--size-large button--fill-white">
-                        Get Started
+                    <a target="_blank" href="https://docs.api.jikan.moe/" class="button button--size-large button--fill-white">
+                        Get Started (v4)
                     </a>
+                </div>
+                <div style="margin-top: 15px;color: #fff;">
+                    <small>Looking for <a style="color: #fff !important;border-bottom: 1px dotted #fff;" href="https://jikan.docs.apiary.io">v3 documentation</a>?</small>
                 </div>
 
                 <div class="available-wrappers">
@@ -133,13 +144,11 @@
                 <div class="app">
                     <p>Try out the Anime Search API</p>
                     <div class="search">
-                        <input id="search_query" type="text" name="query" placeholder="search for an anime, e.g Naruto" />
+                        <input autocomplete="off" id="search_query" type="text" name="query" placeholder="search for an anime, e.g Naruto" />
                         <button id="search">Go</button>
                     </div>
                     <div class="debug">
                         Requesting: <a target="_blank" id="search_query_url" href="javascript:void(null)">API Request URL will appear here</a><br>
-                        Request Cached: <span id="request_cached">-</span><br>
-                        Time taken: <span id="request_time_taken">-</span>
                     </div>
 
                     <div id="search_results" class="cards">
@@ -188,16 +197,19 @@
         <div class="left">
             <h2>REST API</h2>
             <p>With nearly limitless quota on requests, you have the freedom to create without the need of writing your own parsers. Save yourself some Jikan.</p>
-            <p><b>Jikan caters to over 7 million requests weekly.</b> And this includes the use of the most popular Anime/Manga apps around!</p>
+            <p><b>Jikan caters to over 30 million requests weekly.</b> And this includes the use of the most popular Anime/Manga apps around!</p>
 
             <div class="buttons">
-                <a target="_blank" href="https://jikan.docs.apiary.io/" class="button button--size-medium buttton--size-width-override button--outline-white button--has-icon">
+                <a target="_blank" href="https://docs.api.jikan.moe/" class="button button--size-medium buttton--size-width-override button--outline-white button--has-icon">
                     <div class="button__icon"><i class="fas fa-book"></i></div>
                     Documentation
                 </a>
 
                 <iframe src="https://ghbtns.com/github-btn.html?user=jikan-me&repo=jikan-rest&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="125px" height="30px"></iframe>
                 <iframe src="https://ghbtns.com/github-btn.html?user=jikan-me&repo=jikan-rest&type=watch&count=true&size=large" frameborder="0" scrolling="0" width="150px" height="30px"></iframe>
+            </div>
+            <div style="margin-top: 15px;color: #fff;">
+                <small>Looking for <a style="color: #fff !important;border-bottom: 1px dotted #fff;" href="https://jikan.docs.apiary.io">v3 documentation</a>?</small>
             </div>
         </div>
 
@@ -242,103 +254,103 @@
             <a href="https://github.com/Ervie/jikan.net" class="wrapper" style="background: #68217A;" target="_blank">
                 <div>
                     <h4><strong>Jikan.NET</strong></h4>
-                    <small>by <span>Ervie</span> &bull; <span>C#</span></small>
+                    <small>by <span>Ervie</span> &bull; <span>C#</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/abhinavk99/jikanpy" class="wrapper" style="background: #20639A;" target="_blank">
                 <div>
                     <h4><strong>JikanPy</strong></h4>
-                    <small>by <span>Abhinav Kasamsetty</span> &bull; <span>Python</span></small>
+                    <small>by <span>Abhinav Kasamsetty</span> &bull; <span>Python</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/Zerocchi/jikan.rb" class="wrapper" style="background: #D22401;" target="_blank">
                 <div>
                     <h4><strong>Jikan.rb</strong></h4>
-                    <small>by <span>Zerocchi</span> &bull; <span>Ruby</span></small>
+                    <small>by <span>Zerocchi</span> &bull; <span>Ruby</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/zuritor/jikanjs" class="wrapper invert" style="background: #F0DB4F;" target="_blank">
                 <div>
                     <h4><strong>JikanJS</strong></h4>
-                    <small>by <span>Zuritor</span> &bull; <span>Javascript</span></small>
+                    <small>by <span>Zuritor</span> &bull; <span>Javascript</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/Doomsdayrs/Jikan4java" class="wrapper" style="background: #ED8B00;" target="_blank">
                 <div>
                     <h4><strong>Jikan4java</strong></h4>
-                    <small>by <span>Doomsdayrs</span> &bull; <span>Java</span></small>
+                    <small>by <span>Doomsdayrs</span> &bull; <span>Java</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/janvernieuwe/jikan-jikanPHP" class="wrapper" style="background: #8A91BD;" target="_blank">
                 <div>
                     <h4><strong>Jikan-PHP</strong></h4>
-                    <small>by <span>Jan Vernieuwe</span> &bull; <span>PHP</span></small>
+                    <small>by <span>Jan Vernieuwe</span> &bull; <span>PHP</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/xy137/jikan-node" class="wrapper" style="background: #8BC500;" target="_blank">
                 <div>
                     <h4><strong>Jikan-node</strong></h4>
-                    <small>by <span>xy137</span> &bull; <span>NodeJS</span></small>
+                    <small>by <span>xy137</span> &bull; <span>NodeJS</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/javoeria/jikan-dart" class="wrapper" style="background:#00B4AB;" target="_blank">
                 <div>
                     <h4><strong>jikan_api</strong></h4>
-                    <small>by <span>Javier Rosales</span> &bull; <span>Dart</span></small>
+                    <small>by <span>Javier Rosales</span> &bull; <span>Dart</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/Julien-Broyard/jikants" class="wrapper invert" style="background: #F0DB4F;" target="_blank">
                 <div>
                     <h4><strong>JikanTS</strong></h4>
-                    <small>by <span>Julien Broyard</span> &bull; <span>Typescript</span></small>
+                    <small>by <span>Julien Broyard</span> &bull; <span>Typescript</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/javi11/jikan-client" class="wrapper invert" style="background: #34e1eb;" target="_blank">
                 <div>
                     <h4><strong>Jikan-client</strong></h4>
-                    <small>by <span>Javier Blanco</span> &bull; <span>Typescript</span></small>
+                    <small>by <span>Javier Blanco</span> &bull; <span>Typescript</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/darenliang/jikan-go" class="wrapper" style="background: #00ADD8;" target="_blank">
                 <div>
                     <h4><strong>Jikan-go</strong></h4>
-                    <small>by <span>Daren Liang</span> &bull; <span>Go</span></small>
+                    <small>by <span>Daren Liang</span> &bull; <span>Go</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/GSculerlor/JikanKt" class="wrapper" style="background: #f85d06;" target="_blank">
                 <div>
                     <h4><strong>JikanKt</strong></h4>
-                    <small>by <span>Ganendra Afrasya</span> &bull; <span>Kotlin</span></small>
+                    <small>by <span>Ganendra Afrasya</span> &bull; <span>Kotlin</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/seanbreckenridge/jikan_ex" class="wrapper" style="background: #4e2a8e" target="_blank">
                 <div>
                     <h4><strong>JikanEx</strong></h4>
-                    <small>by <span>Sean Breckenridge</span> &bull; <span>Elixir</span></small>
+                    <small>by <span>Sean Breckenridge</span> &bull; <span>Elixir</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/nokusukun/jikan2go" class="wrapper" style="background:#2b2d42;" target="_blank">
                 <div>
                     <h4><strong>jikan2go</strong></h4>
-                    <small>by <span>nokusukun</span> &bull; <span>Go</span></small>
+                    <small>by <span>nokusukun</span> &bull; <span>Go</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/Schalar/Jikan" class="wrapper" style="background: #ED8B00;" target="_blank">
                 <div>
                     <h4><strong>Java Jikan Client</strong></h4>
-                    <small>by <span>Schalar</span> &bull; <span>Java</span></small>
+                    <small>by <span>Schalar</span> &bull; <span>Java</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/SandroHc/reactive-jikan" class="wrapper" style="background: #F85D06;" target="_blank">
                 <div>
                     <h4><strong>Reactive Jikan</strong></h4>
-                    <small>by <span>Sandro Marques</span> &bull; <span>Java</span></small>
+                    <small>by <span>Sandro Marques</span> &bull; <span>Java</span> &bull; <span>v3</span></small>
                 </div>
             </a>
             <a href="https://github.com/ShindouMihou/Jaikan" class="wrapper" style="background: #f78545;" target="_blank">
                 <div>
                     <h4><strong>Jaikan</strong></h4>
-                    <small>by <span>Shindou Mihou</span> &bull; <span>Java</span></small>
+                    <small>by <span>Shindou Mihou</span> &bull; <span>Java</span> &bull; <span>v3</span></small>
                 </div>
             </a>
         </div>
