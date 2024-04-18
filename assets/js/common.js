@@ -79,3 +79,5 @@ document.onscroll = function(){
 scrollUp.onclick=function(){
         window.scrollTo({top: 0});
 };
+
+document.getElementById("currentYear").textContent = new Date().getFullYear();
