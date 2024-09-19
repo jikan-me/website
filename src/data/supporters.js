@@ -3,21 +3,16 @@ import JetbrainsLogo from "../lib/images/jetbrains.svg";
 export default  {
     "sugoi_supporter": [
         "Jared Allard",
-        "hugonun",
-        "John Doe",
         "Jason Weatherly",
-        "Abdelhafid Achtaou"
+        "Abdelhafid Achtaou",
     ],
     "supporter": [
-        "Shonda",
-        "Wamy",
-        "Bobby Williams",
-        "CrafterSama",
-        "Fro116",
-        "Kururin",
         "Aaron Treinish",
-        "TeraNova",
+        "Bobby Williams",
         "Cesar Irad Mendoza",
+        "JT Olmstead",
+        "TeraNova",
+        "CrafterSama",
     ],
     "powered_by": [
         {
