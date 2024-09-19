@@ -1,0 +1,250 @@
+@media screen and (max-width: 1350px) {
+  :root {
+    // Page
+    --page-width: 1200px;
+    --content-width: 1100px;
+  }
+
+  .hero main,
+  .features{
+    gap: 32px;
+  }
+
+  .features,
+  .integrations
+  {
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    justify-content: space-between;
+  }
+
+  .integrations {
+    grid-template-columns: 1fr 500px;
+  }
+
+  .howItWorks {
+    .diagram {
+
+      .cardDiagramFlow {
+        width: 300px;
+      }
+
+      .connector {
+        &__line {
+          &--horizontal {
+            width: 16px;
+          }
+
+          &--vertical {
+            height: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  :root {
+    // Page
+    --page-width: 1200px;
+    --content-width: 1100px;
+  }
+
+  .hero main,
+  .features{
+    gap: 32px;
+  }
+
+  .features,
+  .integrations
+  {
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    justify-content: space-between;
+  }
+
+  .integrations {
+    display: flex;
+    flex-direction: column;
+
+    .left {
+      .type--group-heading-and-content {
+        text-align: center;
+      }
+    }
+
+    &__body {
+      margin-top: 32px;
+      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    &__about {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+
+
+  .howItWorks {
+    .diagram {
+
+      &__flow {
+        flex-direction: column;
+      }
+
+      .cardDiagramInfo,
+      .cardDiagramFlow
+      {
+        margin-top: -8px;
+        width: 700px;
+      }
+
+      .cardDiagramFlow
+      {
+        width: 500px;
+      }
+
+      .connector {
+        &--horizontal {
+          flex-direction: column;
+          align-items: center;
+
+          .connector__line {
+            height: 40px;
+            width: 1px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  :root {
+    // Page
+    --page-width: 1000px;
+    --content-width: 950px;
+  }
+
+  .hero {
+    padding: 0 32px;
+
+    main {
+      width: 100%;
+
+      .right {
+        transform: unset;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  :root {
+    // Page
+    --page-width: 900px;
+    --content-width: 900px;
+  }
+
+  .hero {
+    padding: 0 32px;
+
+    main {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      .left {
+        height: fit-content;
+        justify-self: center;
+        align-self: center;
+      }
+
+      .right {
+        display: none;
+      }
+    }
+  }
+
+  .featuresWrapper {
+    padding: 100px 16px;
+    box-sizing: border-box;
+    .features {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .howItWorks {
+    .diagram {
+      .cardDiagramInfo,
+      .cardDiagramFlow
+      {
+        width: 90vw;
+
+        &__repoStats {
+          display: flex;
+          flex-direction: row;
+        }
+
+        &__meta {
+          width: 100%;
+        }
+
+        &__package {
+          display: grid;
+          grid-template-columns: auto 80px;
+        }
+      }
+
+      .cardDiagramFlow
+      {
+        width: 80vw;
+      }
+
+      &__contributors {
+        min-width: unset;
+        width: 90vw;
+        flex-direction: column;
+        gap: 16px;
+      }
+    }
+  }
+
+  .integrationsWrapper {
+    padding: 100px 16px;
+    box-sizing: border-box;
+
+    .integrations {
+      &__body {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+  }
+
+  .showcaseWrapper {
+    padding: 100px 16px;
+    box-sizing: border-box;
+  }
+  .showcase {
+    flex-wrap: unset;
+    flex-direction: column;
+    justify-self: unset;
+    align-items: center;
+    width: 100%;
+    gap: 32px;
+  }
+}

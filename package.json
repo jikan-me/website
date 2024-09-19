@@ -1,22 +1,29 @@
 {
-  "name": "jikan",
-  "version": "1.0.0",
-  "description": "Website for Jikan.moe",
-  "scripts": {
-    "less:compile": "lessc assets/less/bootstrap.less assets/css/style.css --clean-css=\"--s1 --advanced --compatibility=ie8\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jikan-me/website.git"
-  },
-  "keywords": [],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jikan-me/website/issues"
-  },
-  "homepage": "https://github.com/jikan-me/website#readme",
-  "dependencies": {
-    "less": "3.12.2",
-    "less-plugin-clean-css": "1.5.1"
-  }
+	"name": "jikan-website",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@fontsource/fira-mono": "^4.5.10",
+		"@neoconfetti/svelte": "^1.0.0",
+		"@svelte-plugins/tooltips": "^0.1.8",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.3",
+		"@sveltejs/kit": "^1.20.4",
+		"@sveltejs/vite-plugin-svelte": "^2.4.6",
+		"sass": "^1.69.5",
+		"svelte": "^4.0.5",
+		"svelte-skeleton": "^1.3.1",
+		"svelte-typewriter": "^3.1.8",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@tabler/icons-svelte": "^2.40.0",
+		"date-fns": "^3.6.0",
+		"normalize.css": "^8.0.1"
+	}
 }
