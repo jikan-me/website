@@ -10,13 +10,15 @@ import {fly} from "svelte/transition";
 
 
 let requests = [
+    "https://api.jikan.moe/v4/anime?q=bleach&sfw",
+    "https://api.jikan.moe/v4/anime?q=新世紀&sfw",
     "https://api.jikan.moe/v4/seasons/now?sfw",
     "https://api.jikan.moe/v4/top/anime?sfw",
     "https://api.jikan.moe/v4/seasons/upcoming",
     "https://api.jikan.moe/v4/top/anime?type=movie",
     "https://api.jikan.moe/v4/top/anime?type=ova",
     "https://api.jikan.moe/v4/top/anime?type=ona",
-    // "https://api.jikan.moe/v4/anime?order_by=mal_id&sort=desc&sfw"
+    "https://api.jikan.moe/v4/top/anime?type=ona",
 ];
 $: requestUrl = requests[0];
 $: requestIndex = 0;
@@ -32,7 +34,7 @@ let entries = [];
 
 onMount(() => {
     for (let i = 0; i <= math.randomInteger(2,4); i++) {
-        let randomYear = math.randomInteger(2010, (new Date().getFullYear()-1))
+        let randomYear = math.randomInteger(2005, (new Date().getFullYear()-1))
         let randomSeason = ['spring', 'summer', 'winter', 'fall'][math.randomInteger(0, 3)]
         requests.push("https://api.jikan.moe/v4/seasons/"+randomYear+"/"+randomSeason+"?sfw")
     }
