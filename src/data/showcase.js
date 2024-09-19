@@ -391,4 +391,10 @@ export default [
         imageUrl: "https://i.imgur.com/mQsL56C.png",
         url: "https://coanime.net",
     },
+    {
+        title: "subete",
+        summary: "Built using Next.js 14, Tailwind CSS, and GraphQL, utilizing the Jikan API for all data.",
+        imageUrl: "https://takumayumi.pages.dev/assets/2024_6-CwtxWa-t.png",
+        url: "https://subete.vercel.app/",
+    },
 ]
