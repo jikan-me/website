@@ -397,4 +397,16 @@ export default [
         imageUrl: "https://takumayumi.pages.dev/assets/2024_6-CwtxWa-t.png",
         url: "https://subete.vercel.app/",
     },
+    {
+        title: "Animehaven",
+        summary: "Animehaven provides an interface for viewing information on anime, creating and sharing lists of different anime, having discussions with other users, etc.",
+        imageUrl: "https://i.imgur.com/K0S1nXo.jpg",
+        url: "https://animehaven-next.vercel.app/",
+    },
+    {
+        title: "CrunchyClone",
+        summary: "Website made as a crunchyroll clone + Anime Database",
+        imageUrl: "https://i.imgur.com/XfafPPt.png",
+        url: "https://crunchyclone.vercel.app/",
+    },
 ]
