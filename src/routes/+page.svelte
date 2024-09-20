@@ -518,7 +518,7 @@
 
 			<Divider type="line"></Divider>
 
-			<Button href="https://github.com/jikan-me/website/edit/master/src/data/integrations.js" type="secondary-outline" size="full-width">
+			<Button url="https://github.com/jikan-me/website/edit/master/src/data/integrations.js" type="secondary-outline" size="full-width">
 				<IconCirclePlus size={20} stroke={1.5} />
 				Add your integration here
 			</Button>

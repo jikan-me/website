@@ -49,7 +49,7 @@ import MalHeartBeat from "./MalHeartBeat.svelte";
 <div class="copyright">
     <div class="copyright__content">
         <span>2017 - 2024 Jikan.moe</span>
-        <span>This website is open-source. <Button type="link" size="small" urlTarget="_blank" url="#"><IconGitFork size={16} stroke={1.5} />Help make it better</Button>.</span>
+        <span>This website is open-source. <Button type="link" size="small" urlTarget="_blank" url="https://github.com/jikan-me/website"><IconGitFork size={16} stroke={1.5} />Help make it better</Button>.</span>
     </div>
 </div>
 
