@@ -277,11 +277,11 @@
 
 						{#if github.jikan_rest}
 							<div class="cardDiagramInfo__repoStats">
-								<Button urlTarget="_blank" url="{github.jikan_rest.stargazers_url}" type="link">
+								<Button urlTarget="_blank" url="https://github.com/jikan-me/jikan-rest" type="link">
 									<IconStar size={20} stroke={1.5} />
 									{github.jikan_rest.stargazers_count} stars
 								</Button>
-								<Button urlTarget="_blank" url="{github.jikan_rest.forks_url}" type="link">
+								<Button urlTarget="_blank" url="https://github.com/jikan-me/jikan-rest/forks" type="link">
 									<IconGitFork size={20} stroke={1.5} />
 									{github.jikan_rest.forks_count} forks
 								</Button>
@@ -406,11 +406,11 @@
 
 						{#if github.jikan}
 							<div class="cardDiagramInfo__repoStats">
-								<Button urlTarget="_blank" url="{github.jikan.stargazers_url}" type="link">
+								<Button urlTarget="_blank" url="https://github.com/jikan-me/jikan" type="link">
 									<IconStar size={20} stroke={1.5} />
 									{github.jikan.stargazers_count} stars
 								</Button>
-								<Button urlTarget="_blank" url="{github.jikan.forks_url}" type="link">
+								<Button urlTarget="_blank" url="https://github.com/jikan-me/jikan/forks" type="link">
 									<IconGitFork size={20} stroke={1.5} />
 									{github.jikan.forks_count} forks
 								</Button>
