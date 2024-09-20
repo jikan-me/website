@@ -150,8 +150,8 @@
 				<Button type="primary" url="#features">Learn more</Button>
 
 				<Button type="secondary-outline" urlTarget="_blank" url="https://docs.api.jikan.moe/">
+					<IconArrowDownLeft class="external-link" size={20} stroke={1.5} />
 					Get started
-					<IconArrowNarrowRight size={20} stroke={1.5} />
 				</Button>
 			</ButtonGroup>
 		</div>
@@ -271,7 +271,7 @@
 				<div class="cardDiagramInfo">
 					<div class="cardDiagramInfo__meta">
 						<div class="type--group-heading-and-subheading">
-							<h6 class="cardDiagramInfo__title">Jikan REST API <Chip type="outline" size="xsmall">v4.1.0</Chip></h6>
+							<h6 class="cardDiagramInfo__title">Jikan REST API <Chip type="outline" size="xsmall">v4.2.3</Chip></h6>
 							<p class="cardDiagramInfo__subtitle">— via Lumen/Laravel</p>
 						</div>
 
@@ -314,7 +314,7 @@
 							View Documentation
 						</Button>
 
-						<Button type="link" size="small" url="https://jikan.docs.apiary.io/#" urlTarget="_blank">
+						<Button type="link" size="small" url="https://jikan.docs.apiary.io" urlTarget="_blank">
 							Looking for v3 Documentation?
 							<span use:tooltip={{
 								content: "Why are you still looking for this? ಠ_ಠ",
@@ -400,7 +400,7 @@
 				<div class="cardDiagramInfo">
 					<div class="cardDiagramInfo__meta">
 						<div class="type--group-heading-and-subheading">
-							<h6 class="cardDiagramInfo__title">Jikan PHP API <Chip type="outline" size="xsmall">v4.0.9</Chip></h6>
+							<h6 class="cardDiagramInfo__title">Jikan PHP API <Chip type="outline" size="xsmall">v4.0.11</Chip></h6>
 							<p class="cardDiagramInfo__subtitle">— Parser API</p>
 						</div>
 
