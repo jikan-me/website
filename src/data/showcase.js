@@ -1,5 +1,11 @@
 export default [
     {
+        title: "Anime Vault",
+        summary: "Discover comprehensive anime details, reviews, and streaming options on AniWatch, your ultimate guide to the anime universe.",
+        imageUrl: "https://kedar355.vercel.app/web5.png",
+        url: "https://anime-vault355.vercel.app/",
+    },
+    {
         title: "Anime Flow",
         summary: "Discover anime via a flowchart",
         imageUrl: "https://animeflow.netlify.app/assets/flowchart_preview.min.png",
