@@ -409,4 +409,10 @@ export default [
         imageUrl: "https://i.imgur.com/XfafPPt.png",
         url: "https://crunchyclone.vercel.app/",
     },
+    {
+        title: "Anime Zone",
+        summary: "Anime Zone is your personalized gateway to the exciting world of anime and manga.",
+        imageUrl: "https://github.com/IsmailIbrahim5/AnimeZone/blob/main/readme_resources/Concept%20Design.jpg?raw=true",
+        url: "https://play.google.com/store/apps/details?id=com.glitch.animezone",
+    },
 ]
