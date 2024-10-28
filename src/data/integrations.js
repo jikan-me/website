@@ -145,15 +145,6 @@ export default [
     },
     {
         type: "Wrapper",
-        author: "Sean Breckenridge",
-        title: "JikanEx",
-        language: "elixir",
-        supportsV3: true,
-        supportsV4: false,
-        url: "https://github.com/seanbreckenridge/jikan_ex",
-    },
-    {
-        type: "Wrapper",
         author: "Daren Liang",
         title: "jikan-go",
         language: "go",
