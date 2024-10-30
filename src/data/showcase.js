@@ -409,4 +409,10 @@ export default [
         imageUrl: "https://i.imgur.com/XfafPPt.png",
         url: "https://crunchyclone.vercel.app/",
     },
+    {
+        title: "AnimeVault",
+        summary: "Discover comprehensive anime details, reviews, and streaming options on AnimeVault, your ultimate guide to the anime universe.",
+        imageUrl: "https://i.imgur.com/HktBxGF.png",
+        url: "https://anime-vault355.vercel.app/",  
+    },
 ]
