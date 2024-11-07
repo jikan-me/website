@@ -1,11 +1,5 @@
 export default [
     {
-        title: "Mood2Anime",
-        summary: "Discover top-rated Anime based on your mood",
-        imageUrl: "https://i.imgur.com/xugbPcF.png",
-        url: "https://mood2-anime.vercel.app/",
-    },
-    {
         title: "Anime Flow",
         summary: "Discover anime via a flowchart",
         imageUrl: "https://animeflow.netlify.app/assets/flowchart_preview.min.png",
@@ -420,5 +414,11 @@ export default [
         summary: "Discover comprehensive anime details, reviews, and streaming options on AnimeVault, your ultimate guide to the anime universe.",
         imageUrl: "https://i.imgur.com/HktBxGF.png",
         url: "https://anime-vault355.vercel.app/",  
+    },
+     {
+        title: "Mood2Anime",
+        summary: "Discover top-rated Anime based on your mood",
+        imageUrl: "https://i.imgur.com/xugbPcF.png",
+        url: "https://mood2-anime.vercel.app/",
     },
 ]
