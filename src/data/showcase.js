@@ -415,4 +415,10 @@ export default [
         imageUrl: "https://i.imgur.com/HktBxGF.png",
         url: "https://anime-vault355.vercel.app/",  
     },
+     {
+        title: "Mood2Anime",
+        summary: "Discover top-rated Anime based on your mood",
+        imageUrl: "https://i.imgur.com/xugbPcF.png",
+        url: "https://mood2-anime.vercel.app/",
+    },
 ]
