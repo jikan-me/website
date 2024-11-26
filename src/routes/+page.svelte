@@ -511,7 +511,7 @@
 
 					<div>
 						<h6>OpenAPI 3.1 Specifications</h6>
-						<p>Generate wrappers on the fly as our documentation is built on <Button type="link" url="#" urlTarget="blank">OpenAPI 3.1</Button> Specs.</p>
+						<p>Generate wrappers on the fly as our documentation is built on <Button type="link" url="https://raw.githubusercontent.com/jikan-me/jikan-rest/master/storage/api-docs/api-docs.json" urlTarget="blank">OpenAPI 3.1</Button> Specs.</p>
 					</div>
 				</div>
 			</div>
