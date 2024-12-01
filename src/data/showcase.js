@@ -426,5 +426,11 @@ export default [
         summary: "AnyMe is your go-to anime hub, where you can explore, discover, and track your favorite shows effortlessly.",
         imageUrl: "https://i.imgur.com/KuhAs0Y.jpg",
         url: "https://any-me.vercel.app/",  
+    },
+    {
+        title: "Ani2Nerdle",
+        summary: "A web game that link animes together via voice actors, inspired by Cine2Nerdle Battle",
+        imageUrl: "https://github.com/0WN463/ani2nerdle_ui/blob/6afcfe27b92bef3a5dfd76477b4904aa42ec81c8/screenshot.png",
+        url: "https://ani2nerdle-ui.onrender.com/",  
     }
 ]
