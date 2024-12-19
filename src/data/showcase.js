@@ -432,5 +432,11 @@ export default [
         summary: "A web game that link animes together via voice actors, inspired by Cine2Nerdle Battle",
         imageUrl: "https://raw.githubusercontent.com/0WN463/ani2nerdle_ui/6afcfe27b92bef3a5dfd76477b4904aa42ec81c8/screenshot.png",
         url: "https://ani2nerdle-ui.onrender.com/",  
+    },
+    {
+        title: "AnimeBox",
+        summary: "Anime wbsite using React, TailwindCSS",
+        imageUrl: "https://imgur.com/a/fsJ8hGK",
+        url: "https://anime-boxx.netlify.app/",
     }
 ]
