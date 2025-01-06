@@ -435,7 +435,7 @@ export default [
     }, {
         title: "AnimeBox",
         summary: "Watch and Bookmark your favorite anime!",
-        imageUrl: "https://i.imgur.com/z2ccck6h.png",
+        imageUrl: "https://i.imgur.com/4x4ll1e.png",
         url: "https://anime-boxx.netlify.app/"
     }
 ]
