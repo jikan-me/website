@@ -437,5 +437,10 @@ export default [
         summary: "Watch and Bookmark your favorite anime!",
         imageUrl: "https://i.imgur.com/4x4ll1e.png",
         url: "https://anime-boxx.netlify.app/"
+    }, {
+        title: "Is The Anime Finished?",
+        summary: "Tired of not knowing if an anime is over? Frustrated by the lack of closure? Find your answer here!",
+        imageUrl: "https://i.imgur.com/OJghrUX.png",
+        url: "https://istheanimefinished.com/"
     }
 ]
