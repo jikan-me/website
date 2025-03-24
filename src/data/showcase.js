@@ -442,5 +442,11 @@ export default [
         summary: "Tired of not knowing if an anime is over? Frustrated by the lack of closure? Find your answer here!",
         imageUrl: "https://i.imgur.com/OJghrUX.png",
         url: "https://istheanimefinished.com/"
+    },
+    {
+        title: "Shiroiji AnimeList",
+        summary: "View information from the anime and manga you are looking for!",
+        imageUrl: "https://i.imgur.com/nb0JBOw.png",
+        url: "https://list.shiroiji.my.id/"
     }
 ]
