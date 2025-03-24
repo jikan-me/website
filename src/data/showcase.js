@@ -446,7 +446,7 @@ export default [
     {
         title: "Shiroiji AnimeList",
         summary: "View information from the anime and manga you are looking for!",
-        imageUrl: "https://i.imgur.com/nb0JBOw.png",
+        imageUrl: "https://i.imgur.com/GWo0A7e.png",
         url: "https://list.shiroiji.my.id/"
     }
 ]
