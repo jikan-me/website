@@ -188,4 +188,13 @@ export default [
         supportsV4: false,
         url: "https://github.com/GSculerlor/JikanKt",
     },
+    {
+        type: "Wrapper",
+        author: "Sidharth Singh",
+        title: "Jikan-rs",
+        language: "rust",
+        supportsV3: false,
+        supportsV4: true,
+        url: "https://github.com/Sidharth-Singh10/jikan-rs",
+    },
 ]
