@@ -448,5 +448,11 @@ export default [
         summary: "View information from the anime and manga you are looking for!",
         imageUrl: "https://i.imgur.com/GWo0A7e.png",
         url: "https://list.shiroiji.my.id/"
+    },
+    {
+        title: "Animeversum",
+        summary: "Explore your favorite genres and find new series to watch",
+        imageUrl: "https://animeversum.netlify.app/media/animeversumpng.webp",
+        url: "https://animeversum.netlify.app"
     }
 ]
