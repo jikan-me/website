@@ -1,4 +1,4 @@
-export default [
+Sa R Lon G's export default [
     {
         title: "Anime Flow",
         summary: "Discover anime via a flowchart",
