@@ -454,5 +454,11 @@ export default [
         summary: "Explore your favorite genres and find new series to watch",
         imageUrl: "https://animeversum.netlify.app/media/animeversumpng.webp",
         url: "https://animeversum.netlify.app"
+    },
+    {
+        title: "Seiyuupedia",
+        summary: "Want to find information about a seiyuu or find out who voiced an anime character? Seiyuupedia is here to help you.",
+        imageUrl: "https://i.ibb.co/tPWJM3DX/seiyuupedia-og-image.png",
+        url: "https://nhhseiyuupedia.netlify.app"
     }
 ]
