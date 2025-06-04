@@ -460,5 +460,11 @@ export default [
         summary: "Want to find information about a seiyuu or find out who voiced an anime character? Seiyuupedia is here to help you.",
         imageUrl: "https://i.ibb.co/tPWJM3DX/seiyuupedia-og-image.png",
         url: "https://nhhseiyuupedia.netlify.app"
+    },
+    {
+        title: "Whisper Of Anime",
+        summary: "Generate random inspirational anime quotes from popular characters. Get fresh quotes every click!",
+        imageUrl: "https://whispersofanime.netlify.app/assest/preview.png",
+        url: "https://whispersofanime.netlify.app/"
     }
 ]
