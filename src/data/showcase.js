@@ -466,5 +466,11 @@ export default [
         summary: "Generate random inspirational anime quotes from popular characters. Get fresh quotes every click!",
         imageUrl: "https://whispersofanime.netlify.app/assest/preview.png",
         url: "https://whispersofanime.netlify.app/"
+    },
+    {
+        title: "MyWatchlist",
+        summary: "An intuitive anime watchlist application designed to facilitate the tracking of anime titles added to your watchlist. Ideal for anime enthusiasts seeking comprehensive management of their viewing preferences.",
+        imageUrl: "https://mywatchlist.blvckdev.homes/opengraph-image.png",
+        url: "https://mywatchlist.blvckdev.homes/"
     }
 ]
