@@ -472,5 +472,11 @@ export default [
         summary: "An intuitive anime watchlist application designed to facilitate the tracking of anime titles added to your watchlist. Ideal for anime enthusiasts seeking comprehensive management of their viewing preferences.",
         imageUrl: "https://mywatchlist.blvckdev.homes/opengraph-image.png",
         url: "https://mywatchlist.blvckdev.homes/"
+    },
+    {
+        title: "Animania",
+        summary: "An anime info and searching web application with recommendations of related anime according to your search and many more.",
+        imageUrl: "https://ik.imagekit.io/wiredbrat/animania.png",
+        url: "https://animania-black.vercel.app"
     }
 ]
