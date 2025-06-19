@@ -464,7 +464,7 @@ export default [
     {
         title: "Whisper Of Anime",
         summary: "Generate random inspirational anime quotes from popular characters. Get fresh quotes every click!",
-        imageUrl: "https://whispersofanime.netlify.app/assest/preview.png",
+        imageUrl: "https://whispersofanime.netlify.app/assets/preview.png",
         url: "https://whispersofanime.netlify.app/"
     },
     {
