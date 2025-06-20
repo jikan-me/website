@@ -191,10 +191,10 @@ export default [
     {
         type: "Wrapper",
         author: "Sidharth Singh",
-        title: "Jikan-rs",
+        title: "Jikan_moe",
         language: "rust",
         supportsV3: false,
         supportsV4: true,
-        url: "https://github.com/Sidharth-Singh10/jikan-rs",
+        url: "https://github.com/Sidharth-Singh10/jikan_moe",
     },
 ]
