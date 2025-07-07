@@ -478,5 +478,11 @@ export default [
         summary: "An anime info and searching web application with recommendations of related anime according to your search and many more.",
         imageUrl: "https://ik.imagekit.io/wiredbrat/animania.png",
         url: "https://animania-black.vercel.app"
+    },
+    {
+        title: "Mangile",
+        summary: "Dynamic, effective and useful manga/webtoon/novel reading, following and sharing system in Turkish.",
+        imageUrl: "https://i.hizliresim.com/g6si0b5.png",
+        url: "https://mangile.vercel.app"
     }
 ]
