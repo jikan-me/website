@@ -484,5 +484,11 @@ export default [
         summary: "Dynamic, effective and useful manga/webtoon/novel reading, following and sharing system in Turkish.",
         imageUrl: "https://i.hizliresim.com/g6si0b5.png",
         url: "https://mangile.vercel.app"
+    },
+    {
+        title: "OtakuVibe",
+        summary: "A unified platform to explore the world of anime, manga, manhwa and manhua.",
+        imageUrl: "https://suriyakishoreks.github.io/otaku-vibe/assets/thumbnail.webp",
+        url: "https://suriyakishoreks.github.io/otaku-vibe/"
     }
 ]
