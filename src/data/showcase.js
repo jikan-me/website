@@ -1,5 +1,11 @@
 export default [
     {
+        title: "MaNime",
+        summary: "MaNime is a website that provides information about anime, such as the latest anime, most popular anime, anime recommendations, and more.",
+        imageUrl: "https://raw.githubusercontent.com/justikail/MaNime-React-JS/refs/heads/main/demo.png",
+        url: "https://manime-reactjs.vercel.app/",
+    },
+    {
         title: "Anime Flow",
         summary: "Discover anime via a flowchart",
         imageUrl: "https://animeflow.netlify.app/assets/flowchart_preview.min.png",
