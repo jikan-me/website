@@ -490,5 +490,11 @@ export default [
         summary: "A unified platform to explore the world of anime, manga, manhwa and manhua.",
         imageUrl: "https://suriyakishoreks.github.io/otaku-vibe/assets/thumbnail.webp",
         url: "https://suriyakishoreks.github.io/otaku-vibe/"
+    },
+    {
+        "title": "Ferivonus Anime Bot",
+        "summary": "A Discord bot written in Rust using Serenity that fetches anime info from MyAnimeList via Jikan API. Features include search, detailed info, recommendations, and special references to Serial Experiments Lain.",
+        "imageUrl": "https://github.com/Ferivonus/Jikan-api-discord-bot-rust/blob/master/git-docs/images/anime_bot_help.png?raw=true",
+        "url": "https://github.com/Ferivonus/Jikan-api-discord-bot-rust"
     }
 ]
