@@ -490,5 +490,11 @@ export default [
         summary: "A unified platform to explore the world of anime, manga, manhwa and manhua.",
         imageUrl: "https://suriyakishoreks.github.io/otaku-vibe/assets/thumbnail.webp",
         url: "https://suriyakishoreks.github.io/otaku-vibe/"
+    },
+    {
+        title: "MyMediaTracker",
+        summary: "An inclusive website that lets users track everything including anime, manga and manhwa!",
+        imageUrl: "https://files.catbox.moe/zb6ni3.png",
+        url: "mymediatracker.vercel.app",
     }
 ]
