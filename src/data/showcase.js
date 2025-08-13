@@ -492,6 +492,12 @@ export default [
         url: "https://suriyakishoreks.github.io/otaku-vibe/"
     },
     {
+        title: "Ferivonus Anime Bot",
+        summary: "A Discord bot written in Rust using Serenity that fetches anime info from MyAnimeList via Jikan API. Features include search, detailed info, recommendations, and special references to Serial Experiments Lain.",
+        imageUrl: "https://github.com/Ferivonus/Jikan-api-discord-bot-rust/blob/master/git-docs/images/anime_bot_help.png?raw=true",
+        url: "https://github.com/Ferivonus/Jikan-api-discord-bot-rust"
+    },
+    {
         title: "MyMediaTracker",
         summary: "An all inclusive website that lets users track everything including anime, manga and manhwa!",
         imageUrl: "https://files.catbox.moe/zb6ni3.png",
