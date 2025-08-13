@@ -83,11 +83,11 @@ export default [
     {
         type: "Wrapper",
         author: "RizzziGit",
-        title: "Jikan4JS",
+        title: "Jikan4.js",
         language: "nodejs",
         supportsV3: false,
         supportsV4: true,
-        url: "https://github.com/rizzzigit/jikan4.js",
+        url: "https://gitlab.com/rizzzi/jikan4.js",
     },
     {
         type: "Wrapper",
