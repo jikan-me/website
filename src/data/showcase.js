@@ -501,6 +501,6 @@ export default [
         title: "MyMediaTracker",
         summary: "An all inclusive website that lets users track everything including anime, manga and manhwa!",
         imageUrl: "https://files.catbox.moe/zb6ni3.png",
-        url: "mymediatracker.vercel.app",
+        url: "https://mymediatracker.vercel.app/",
     }
 ]
