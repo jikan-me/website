@@ -506,7 +506,7 @@ export default [
     {
     title: "BingoAnime",
     summary: "Your premium destination for anime streaming. Watch thousands of anime titles with the best viewing experience.",
-    imageUrl: "https://bingoanime.net/og.png",
+    imageUrl: "https://imgur.com/a/amrI5im",
     url: "https://bingoanime.net/",
     }
 ]
