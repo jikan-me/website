@@ -502,5 +502,11 @@ export default [
         summary: "An all inclusive website that lets users track everything including anime, manga and manhwa!",
         imageUrl: "https://files.catbox.moe/zb6ni3.png",
         url: "https://mymediatracker.vercel.app/",
+    },
+    {
+    title: "BingoAnime",
+    summary: "Your premium destination for anime streaming. Watch thousands of anime titles with the best viewing experience.",
+    imageUrl: "https://bingoanime.net/og.png",
+    url: "https://bingoanime.net/",
     }
 ]
