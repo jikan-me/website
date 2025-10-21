@@ -1,4 +1,11 @@
 export default [
+    
+    {
+        title: "Jet-Nime",
+        summary: "No Fillers, All Thrillers! Battle Arena || Originals & Moree..",
+        imageUrl: "https://jet-nime.netlify.app/",
+        url: "https://jet-nime.netlify.app/",
+    },
     {
         title: "Anime Flow",
         summary: "Discover anime via a flowchart",
