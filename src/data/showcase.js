@@ -1,5 +1,11 @@
 export default [
     {
+        title: "Bingeki",
+        summary: "Your ultimate anime companion to track progress, discover new works, and challenge friends.",
+        imageUrl: "https://bingeki.web.app/logo.png",
+        url: "https://bingeki.web.app/",
+    },
+    {
         title: "Anime Flow",
         summary: "Discover anime via a flowchart",
         imageUrl: "https://animeflow.netlify.app/assets/flowchart_preview.min.png",
