@@ -526,5 +526,11 @@ export default [
         summary: "Founded by anime enthusiasts from the Middle East, Anime-Dunya.com is a free, ad-free streaming community designed to bridge cultures by providing premium Full HD anime with tailored multilingual support.",
         imageUrl: "https://cdn.anime-dunya.com/misc/screenshot.png",
         url: "https://anime-dunya.com",
+    },
+    {
+        title: "Morime",
+        summary: "An anime & Manga discovery and tracking platform, inspired by MyAnimeList",
+        imageUrl: "https://github.com/user-attachments/assets/f961934a-7060-485f-8ba0-2de2cff92aab",
+        url: "https://morime.vercel.app",
     }
 ]
