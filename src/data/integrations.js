@@ -206,4 +206,13 @@ export default [
         supportsV4: true,
         url: "https://github.com/Sidharth-Singh10/jikan_moe",
     },
+    {
+        type: "Wrapper",
+        author: "Firr, The Creator.",
+        title: "myanimelist-wrapper",
+        language: "typescript",
+        supportsV3: false,
+        supportsV4: true,
+        url: "https://github.com/firrthecreator/myanimelist-wrapper",
+    },
 ]
