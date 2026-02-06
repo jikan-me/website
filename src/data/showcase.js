@@ -534,4 +534,11 @@ export default [
       imageUrl: "https://morime.vercel.app/screenshot.png",
       url: "https://morime.vercel.app",
     },
+    {
+      title: "Anime Stats",
+      summary:
+        "Dive deep into anime episode ratings from MyAnimeList. Track trends, discover top-rated episodes, and analyze your favorite series like never before.",
+      imageUrl: "https://backend.uneed.best/storage/v1/object/public/product_medias/anime-stats/20095/1765832919812-1.jpg",
+      url: "https://www.animestats.tf/",
+    },
 ]
