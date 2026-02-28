@@ -534,4 +534,11 @@ export default [
       imageUrl: "https://morime.vercel.app/screenshot.png",
       url: "https://morime.vercel.app",
     },
+    {
+      title: "Anism.moe",
+      summary:
+        "Discover & Track Anime",
+      imageUrl: "https://r2.anism.moe/assets/branding/preview.png",
+      url: "https://anism.moe",
+    },
 ]
