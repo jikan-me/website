@@ -534,4 +534,11 @@ export default [
       imageUrl: "https://morime.vercel.app/screenshot.png",
       url: "https://morime.vercel.app",
     },
+    {
+      title: "Shinakamana",
+      summary:
+        "Discover and explore your favorite anime series with detailed information and updates",
+      imageUrl: "https://shinakamana.vercel.app/screenshot.png",
+      url: "https://shinakamana.vercel.app/",
+    },
 ]
