@@ -215,4 +215,13 @@ export default [
         supportsV4: true,
         url: "https://github.com/firrthecreator/myanimelist-wrapper",
     },
+    {
+        type: "Wrapper",
+        author: "mhmmdyusran",
+        title: "jikan-cpp",
+        language: "c++",
+        supportsV3: false,
+        supportsV4: true,
+        url: "https://github.com/mhmmdyusran/jikan-cpp",
+    },
 ]

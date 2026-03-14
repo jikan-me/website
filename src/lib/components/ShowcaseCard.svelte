@@ -34,11 +34,11 @@
 
 
   &__image {
-    height: 200px;
     width: 300px;
     border-radius: var(--border-radius-large);
     background: var(--background-300);
     overflow: hidden;
+    aspect-ratio: 16/9;
     transition: all 1s ease;
 
     img {
