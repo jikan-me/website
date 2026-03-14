@@ -547,5 +547,13 @@ export default [
         "Aniview is an anime discovery and viewing platform similar to MyAnimeList, powered by the Jikan API. It provides access to the current anime season, producers, and a comprehensive catalog.",
       imageUrl: "https://aniview-avw.vercel.app/screenshot.png",
       url: "https://aniview-avw.vercel.app",
-    }
+    },
+    {
+      title: "Anism.moe",
+      summary:
+        "Discover & Track Anime",
+      imageUrl: "https://r2.anism.moe/assets/branding/preview.png",
+      url: "https://anism.moe",
+    },
+
 ]
