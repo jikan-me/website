@@ -541,4 +541,11 @@ export default [
       imageUrl: "https://backend.uneed.best/storage/v1/object/public/product_medias/anime-stats/20095/1765832919812-1.jpg",
       url: "https://www.animestats.tf/",
     },
+    {
+      title: "AniView",
+      summary:
+        "Aniview is an anime discovery and viewing platform similar to MyAnimeList, powered by the Jikan API. It provides access to the current anime season, producers, and a comprehensive catalog.",
+      imageUrl: "https://aniview-avw.vercel.app/screenshot.png",
+      url: "https://aniview-avw.vercel.app",
+    }
 ]
