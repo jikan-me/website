@@ -535,6 +535,13 @@ export default [
       url: "https://morime.vercel.app",
     },
     {
+      title: "Shinakamana",
+      summary:
+        "Discover and explore your favorite anime series with detailed information and updates",
+      imageUrl: "https://shinakamana.vercel.app/screenshot.png",
+      url: "https://shinakamana.vercel.app/",
+    },
+    {
       title: "Anime Stats",
       summary:
         "Dive deep into anime episode ratings from MyAnimeList. Track trends, discover top-rated episodes, and analyze your favorite series like never before.",
@@ -555,5 +562,11 @@ export default [
       imageUrl: "https://r2.anism.moe/assets/branding/preview.png",
       url: "https://anism.moe",
     },
-
+    {
+      title: "Shinakamana",
+      summary:
+        "Discover and explore your favorite anime series with detailed information and updates",
+      imageUrl: "https://shinakamana.vercel.app/screenshot.png",
+      url: "https://shinakamana.vercel.app/",
+    },
 ]
