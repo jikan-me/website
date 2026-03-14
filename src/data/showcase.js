@@ -535,10 +535,25 @@ export default [
       url: "https://morime.vercel.app",
     },
     {
+      title: "Anime Stats",
+      summary:
+        "Dive deep into anime episode ratings from MyAnimeList. Track trends, discover top-rated episodes, and analyze your favorite series like never before.",
+      imageUrl: "https://backend.uneed.best/storage/v1/object/public/product_medias/anime-stats/20095/1765832919812-1.jpg",
+      url: "https://www.animestats.tf/",
+    },
+    {
+      title: "AniView",
+      summary:
+        "Aniview is an anime discovery and viewing platform similar to MyAnimeList, powered by the Jikan API. It provides access to the current anime season, producers, and a comprehensive catalog.",
+      imageUrl: "https://aniview-avw.vercel.app/screenshot.png",
+      url: "https://aniview-avw.vercel.app",
+    },
+    {
       title: "Anism.moe",
       summary:
         "Discover & Track Anime",
       imageUrl: "https://r2.anism.moe/assets/branding/preview.png",
       url: "https://anism.moe",
     },
+
 ]
