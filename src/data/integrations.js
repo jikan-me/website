@@ -224,4 +224,13 @@ export default [
         supportsV4: true,
         url: "https://github.com/mhmmdyusran/jikan-cpp",
     },
+    {
+        type: "Wrapper",
+        author: "Rushelasli",
+        title: "JikanTS",
+        language: "typescript",
+        supportsV3: false,
+        supportsV4: true,
+        url: "https://github.com/rushelasli/jikants",
+    },
 ]
