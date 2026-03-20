@@ -1,3 +1,56 @@
+const animeList = document.getElementById("animeList");
+const searchInput = document.getElementById("search");
+
+// Function to fetch and display anime
+async function searchAnime(query = "") {
+    // If query is empty, maybe fetch "top" anime instead
+    const url = query 
+        ? `https://api.jikan.moe/v4/anime?q=${query}&limit=12` 
+        : `https://api.jikan.moe/v4/top/anime?limit=12`;
+
+    try {
+        const response = await fetch(url);
+        const result = await response.json();
+        const data = result.data; // Jikan returns data in a 'data' property
+
+        displayAnime(data);
+    } catch (error) {
+        console.error("Error fetching data:", error);
+        animeList.innerHTML = "<p>Failed to load anime. Please try again later.</p>";
+    }
+}
+
+// Update your display function to use Jikan's object structure
+function displayAnime(list) {
+    animeList.innerHTML = "";
+    if (!list || list.length === 0) {
+        animeList.innerHTML = "<p>No results found.</p>";
+        return;
+    }
+
+    list.forEach(anime => {
+        // Jikan uses 'images.jpg.image_url' and 'title'
+        animeList.innerHTML += `
+            <div class="card" onclick="window.open('${anime.url}', '_blank')">
+                <img src="${anime.images.jpg.image_url}" alt="${anime.title}">
+                <p><strong>${anime.title}</strong></p>
+                <p style="font-size: 12px; color: #94a3b8;">Rating: ${anime.score || 'N/A'}</p>
+            </div>
+        `;
+    });
+}
+
+// Initial load (Top Anime)
+searchAnime();
+
+// Search with Debounce (to avoid hitting rate limits)
+let timeout = null;
+searchInput.addEventListener("keyup", function() {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => {
+        searchAnime(this.value);
+    }, 500); // Waits 500ms after user stops typing
+});
 export default [
     {
         title: "Anime Flow",
