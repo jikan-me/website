@@ -569,4 +569,10 @@ export default [
       imageUrl: "https://shinakamana.vercel.app/screenshot.png",
       url: "https://shinakamana.vercel.app/",
     },
+    {
+      title: "Anime Filler Checker",
+      summary: "Browser extension that auto-detects anime on streaming sites, shows filler/canon badges, and enriches episode info with MAL data via Jikan API.",
+      imageUrl: "https://animefillerchecker.com/promo-showcase.jpg",
+      url: "https://animefillerchecker.com"
+    },
 ]
