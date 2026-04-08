@@ -575,10 +575,10 @@ export default [
       imageUrl: "https://animefillerchecker.com/promo-showcase.jpg",
       url: "https://animefillerchecker.com"
     },
-]
-{
+	{
 		title: "Anime Mood Recommender",
 		summary: "An intelligent anime mood recommender powered by Jikan API v4, featuring genre smart mapping to give accurate recommendations based on your vibe.",
 		imageUrl: "https://animetolz.com/favicon.ico",
 		url: "https://animetolz.com/anime-mood-recommender/"
 	},
+	]
