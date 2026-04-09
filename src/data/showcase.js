@@ -575,4 +575,10 @@ export default [
       imageUrl: "https://animefillerchecker.com/promo-showcase.jpg",
       url: "https://animefillerchecker.com"
     },
+    {
+      title: "Sorai",
+      summary: "Your personal space to track, organize, and discover anime. Keep control of everything you watch.",
+      imageUrl: "https://sorai-app.vercel.app/images/preview.png",
+      url: "https://sorai-app.vercel.app/"
+    },
 ]
