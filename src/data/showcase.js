@@ -587,4 +587,10 @@ export default [
       imageUrl: "https://sorai-app.vercel.app/images/preview.png",
       url: "https://sorai-app.vercel.app/"
     },
+	{
+      title: "Mangavault",
+      summary: "Entra a la bóveda 🔓 Miles de mangas te esperan. Lee los últimos capítulos gratis en español, sin interrupciones.",
+      imageUrl: "https://mangavault.lat/banner.png",
+      url: "https://mangavault.lat/"
+    },
 ]
