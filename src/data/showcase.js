@@ -498,10 +498,10 @@ export default [
         url: "https://github.com/Ferivonus/Jikan-api-discord-bot-rust"
     },
     {
-        title: "MyMediaTracker",
+        title: "Mytria",
         summary: "An all inclusive website that lets users track everything including anime, manga and manhwa!",
-        imageUrl: "https://files.catbox.moe/zb6ni3.png",
-        url: "https://mymediatracker.vercel.app/",
+        imageUrl: "https://mytria.app/dashboard-preview.png",
+        url: "https://mytria.app/",
     }, 
     {
         title: "AniHaven🎌",
