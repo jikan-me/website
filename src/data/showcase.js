@@ -587,4 +587,10 @@ export default [
       imageUrl: "https://sorai-app.vercel.app/images/preview.png",
       url: "https://sorai-app.vercel.app/"
     },
+	{
+      title: "Anime Decider Pro",
+      summary: "It is an all-in-one utility tool designed to help users quickly and accurately determine if a new anime is worth their time before they commit to watching it. It aggregates essential data, community sentiment, and AI analysis into a single dashboard.",
+      imageUrl: "https://animetolz.com/wp-content/uploads/2026/03/Anime-Mood-Recommender-animetolz-your-anime-journy-partner.-Google-Chrome-3_3_2026-4_37_36-PM-e1772536401967.png",
+      url: "https://animetolz.com/anime-decider-pro/"
+  },
 ]
