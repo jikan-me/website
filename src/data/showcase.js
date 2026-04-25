@@ -504,7 +504,7 @@ export default [
         url: "https://mymediatracker.vercel.app/",
     }, 
     {
-        title: "AniHaven🎌",
+        title: "AniHaven\ud83c\udf8c",
         summary: "An anime discovery app with recommendations for newbies",
         imageUrl: "https://portfolio-pi-seven-48.vercel.app/assets/home-GgO_fKTe.png",
         url: "https://creeksonjoseph.github.io/AniHaven/",
@@ -586,5 +586,11 @@ export default [
       summary: "Your personal space to track, organize, and discover anime. Keep control of everything you watch.",
       imageUrl: "https://sorai-app.vercel.app/images/preview.png",
       url: "https://sorai-app.vercel.app/"
+    },
+    {
+      title: 'Anime Collection',
+      summary: 'A sophisticated, pure client-side anime portal tailored for the Indonesian community. Powered by Jikan, it features bi-directional MAL sync, watch history tracking, and seamless marathon playback in a zero-backend environment.',
+      imageUrl: 'https://animeid.pages.dev/image/site.jpg',
+      url: 'https://animeid.pages.dev'
     },
 ]
