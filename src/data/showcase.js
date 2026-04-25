@@ -589,7 +589,7 @@ export default [
     },
     {
       title: 'Anime Collection',
-      summary: 'A feature-rich anime portal with Jikan API integration for rich metadata, reviews, and forums. Features include MAL bi-directional sync, watch history tracking, and seamless marathon playback.',
+      summary: 'A sophisticated, pure client-side anime portal tailored for the Indonesian community. Powered by Jikan, it features bi-directional MAL sync, watch history tracking, and seamless marathon playback in a zero-backend environment.',
       imageUrl: 'https://animeid.pages.dev/image/site.jpg',
       url: 'https://animeid.pages.dev'
     },
