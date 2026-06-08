@@ -531,8 +531,8 @@ export default [
       title: "Morime",
       summary:
         "An anime & Manga discovery and tracking platform, inspired by MyAnimeList",
-      imageUrl: "https://morime.vercel.app/screenshot.png",
-      url: "https://morime.vercel.app",
+      imageUrl: "https://morime.netlify.app/screenshot.png",
+      url: "https://morime.netlify.app",
     },
     {
       title: "Shinakamana",
