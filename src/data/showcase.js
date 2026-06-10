@@ -590,7 +590,7 @@ export default [
 	{
       title: "AniSwipe",
       summary: "Swipe through seasonal anime and build your watchlist in minutes.",
-      imageUrl: "https://aniswipe.gethako.app/ogimage.png",
+      imageUrl: "https://raw.githubusercontent.com/gorolmartin/hako-anime-tracking-web/refs/heads/main/ogimage.jpg",
       url: "https://aniswipe.gethako.app/"
     },
 ]
