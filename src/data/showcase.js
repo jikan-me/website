@@ -587,4 +587,10 @@ export default [
       imageUrl: "https://sorai-app.vercel.app/images/preview.png",
       url: "https://sorai-app.vercel.app/"
     },
+	{
+      title: "AniSwipe",
+      summary: "Swipe through seasonal anime and build your watchlist in minutes.",
+      imageUrl: "https://aniswipe.gethako.app/ogimage.png",
+      url: "https://aniswipe.gethako.app/"
+    },
 ]
