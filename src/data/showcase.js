@@ -5,6 +5,12 @@ export default [
         imageUrl: "https://animeflow.netlify.app/assets/flowchart_preview.min.png",
         url: "https://animeflow.netlify.app/",
     },
+	{
+        title: "Marga Senpai",
+        summary: "Discover anime",
+        imageUrl: "https://marga-senpai.vercel.app/showcase.png",
+        url: "https://marga-senpai.vercel.app/anime",
+    },
     {
         title: "Animedia",
         summary: "Website made to test Vuejs",
