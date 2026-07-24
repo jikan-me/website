@@ -1,4 +1,13 @@
 export default [
+      {
+    type: "Wrapper",
+    author: "Raihan Muhammad Dzaky",
+    title: "jikan-wrapper",
+    language: "javascript",
+    supportsV3: false,
+    supportsV4: true,
+    url: "https://github.com/raihanmuhammaddzaky/JikanWrapper-NodeJS",
+  },
     {
         type: "Wrapper",
         author: "Zuritor",
