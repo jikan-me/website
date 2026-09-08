@@ -1,4 +1,9 @@
-export default [
+{
+  title: "Meri Website",
+  summary: "Meri anime website jahan users anime content dekh sakte hain.",
+  imageUrl: "https://example.com/image.jpg",
+  url: "https://meriwebsite.netlify.app"
+},export default [
     {
         title: "Anime Flow",
         summary: "Discover anime via a flowchart",
