@@ -587,4 +587,10 @@ export default [
       imageUrl: "https://sorai-app.vercel.app/images/preview.png",
       url: "https://sorai-app.vercel.app/"
     },
+    {
+      title: "AniTime",
+      summary: "Seasonal anime schedule in Thailand time (UTC+7), with links to legal Thai-subtitled streams and a personal watch list. Anime data powered by Jikan API.",
+      imageUrl: "https://anitime.nathapolcpe.workers.dev/og.jpg",
+      url: "https://anitime.nathapolcpe.workers.dev/"
+    },
 ]
