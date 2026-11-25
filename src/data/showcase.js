@@ -587,4 +587,10 @@ export default [
       imageUrl: "https://sorai-app.vercel.app/images/preview.png",
       url: "https://sorai-app.vercel.app/"
     },
+	{
+      title: "Rekko Lists",
+      summary: "Rekko-Lists is developing a social network focused on anime discovery and recommendations.",
+      imageUrl: "https://www.ericmejias.es/assets/rekko-C0qIRoWW.webp",
+      url: "https://www.rekko-lists.net/"
+    },
 ]
